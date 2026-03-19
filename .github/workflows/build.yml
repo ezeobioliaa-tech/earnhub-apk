@@ -1,4 +1,4 @@
-name: Build EarnHub APK
+Build EarnHub APK
 
 on:
   push:
@@ -27,6 +27,10 @@ jobs:
 
       - name: Add Android platform
         run: npx cap add android
+        continue-on-error: true
+
+      - name: Copy web assets
+        run: npx cap copy android
 
       - name: Sync Capacitor
         run: npx cap sync android
