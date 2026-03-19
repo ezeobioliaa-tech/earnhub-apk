@@ -1,4 +1,4 @@
-Build EarnHub APK
+name: Build EarnHub APK
 
 on:
   push:
