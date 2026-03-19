@@ -1,0 +1,13 @@
+{
+  "appId": "com.earnhub.app",
+  "appName": "EarnHub",
+  "webDir": "www",
+  "server": {
+    "url": "https://earnhubs.netlify.app",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#f5f6ff"
+  }
+}
